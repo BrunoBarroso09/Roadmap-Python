@@ -3,16 +3,16 @@
 #Create list
 list = ['string', 2, 12.2, True, ['A', 'B']]
 
-# Access specific element
+#Access specific element
 print(list[0])
 
-# check length of the list
+#Check length of the list
 print(len(list))
 
-# change specific element
+#Change specific element
 list[0] = 'Change element'
 
-# Access specific element
+#Access specific element
 print(list[0])
 
 #Append new value to the list

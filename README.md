@@ -25,7 +25,7 @@ Repository for my python journey
 
 [12 - conditions](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/12_conditions.py)
 
-[13 - Loo](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/13_loop.py)
+[13 - Loop](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/13_loop.py)
 
 [14 - While](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/14_while.py)
 
@@ -54,3 +54,5 @@ Repository for my python journey
 [26 - Constructor init](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/26_init.py)
 
 [27 - Heritance](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/27_heritance.py)
+
+[28 - Polimorfism](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/28_Polimorfism.py)

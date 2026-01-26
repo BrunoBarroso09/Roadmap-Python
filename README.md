@@ -38,3 +38,19 @@ Repository for my python journey
 [18 - Date Hour](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/18_date_hour.py)
 
 [19 - More about range](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/19_More_range.py)
+
+[20 - User input](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/20_user_input.py)
+
+[21 - Exception](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/21_exceptioon.py)
+
+[22 - Read/Write in files](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/22_write_read_file.py)
+
+[23 - FString](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/23_fstring_modifiers.py)
+
+[24 - pip](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/24_pip.py)
+
+[25 - OOP](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/25_oop.py)
+
+[26 - Constructor init](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/26_init.py)
+
+[27 - Heritance](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/27_heritance.py)

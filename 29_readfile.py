@@ -1,4 +1,3 @@
-with open("29_file.txt") as file:
-    lines = [line.strip() for line in file.readlines()]
-    for line in lines:
+with open("29_file.txt", "r") as file:
+    for line in file:
         print(f"{line}")

@@ -58,3 +58,5 @@ Repository for my python journey
 [28 - Polimorfism](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/28_Polimorfism.py)
 
 [30 - File system](https://github.com/BrunoBarroso09/Roadmap-Python/tree/Dev/30-FileSystem)
+
+[31 - Mysql](https://github.com/BrunoBarroso09/Roadmap-Python/tree/Dev/31-Mysql)

@@ -1,4 +1,6 @@
 import mysql.connector
+from Core.identifier import GenerateUUID
+from mysql.connector import errorcode
 
 
 class User:
@@ -13,14 +15,22 @@ class UserRepository:
         self.connection = connection
 
     def insert_user(self, user: User):
-
+        generate_uuid = GenerateUUID.v5(user.email)
         cursor = self.connection.cursor()
-        query = "INSERT INTO User (name, email) VALUES (%s, %s)"
-        cursor.execute(query, (user.name, user.email))
+        query = "INSERT INTO User (id, name, email) VALUES (%s, %s, %s)"
 
-        self.connection.commit()
-        cursor.close()
-        print(f"User {user.name} was created!")
+        try:
+            cursor.execute(query,(generate_uuid, user.name, user.email))
+            self.connection.commit()
+            print(f"User {user.name} was created!")
+        except mysql.connector.Error as err:
+            # O código 1062 é o padrão do MySQL para "Duplicate entry"
+            if err.errno == errorcode.ER_DUP_ENTRY:
+                print(f"⚠️ Error: This user with this email '{user.email}' already exist in the database (Duplicate Id).\n")
+            else:
+                print(f"❌ Error occurred: {err}")
+        finally:
+            cursor.close()
 
     def get_all_users(self):
         cursor = self.connection.cursor()

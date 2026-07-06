@@ -61,4 +61,4 @@ Repository for my python journey
 
 [31 - Mysql](https://github.com/BrunoBarroso09/Roadmap-Python/tree/Dev/31-Mysql)
 
-[32 - List Comprehension](https://github.com/BrunoBarroso09/Roadmap-Python/blob/Dev/32_lsit_comprehension.py)
+[32 - List Comprehension](https://github.com/BrunoBarroso09/roadmap-Python/blob/Dev/32_list_comprehension.py)

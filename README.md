@@ -62,3 +62,7 @@ Repository for my python journey
 [31 - Mysql](https://github.com/BrunoBarroso09/Roadmap-Python/tree/Dev/31-Mysql)
 
 [32 - List Comprehension](https://github.com/BrunoBarroso09/roadmap-Python/blob/Dev/32_list_comprehension.py)
+
+[33 - Panda DataFrame](https://github.com/BrunoBarroso09/roadmap-Python/blob/Dev/33_panda_dataframe.py)
+
+[34 - Count](https://github.com/BrunoBarroso09/roadmap-Python/blob/Dev/34_Counter.py)
